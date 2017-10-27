@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative; }
+
+html.body {
+  width: 100%;
+  height: 100%; }
+
+.nav {
+  min-width: 500px;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(20, 20, 20, 0.8);
+  text-align: center;
+  padding: 45px 0px; }
+  .nav h1 {
+    color: white;
+    letter-spacing: .4em; }
+
+.bbox {
+  min-width: 500px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row; }
+
+.header {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(20, 20, 20, 0.8); }
+  .header a {
+    letter-spacing: .2em;
+    margin: 20px auto 0px;
+    text-decoration: none;
+    color: white; }
+
+@media screen and (max-width: 844px) {
+  .bbox {
+    flex-direction: column; }
+
+  .header {
+    width: 100%;
+    flex-direction: row; }
+    .header a {
+      margin: 20px; } }
+
+/*# sourceMappingURL=anyong_add.css.map */
